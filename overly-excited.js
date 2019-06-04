@@ -15,7 +15,7 @@ let sentence = [
 ];
 
 let questionMark = "?";
-let symbol = "*"
+let symbol = "****"
 let num 
 
 /*
@@ -31,7 +31,7 @@ function addExcitement(theWordArray, symbol, num) {
     // Concatenate the new word onto buildMeUp
     buildMeUp += theWordArray[i] +'';
     if ((i - 2) % 3 === 0) {
-       4 * symbol;
+       buildMeUp += symbol;
       //  console.log(buildMeUp);
     }
     else {buildMeUp += " "}
